@@ -1,17 +1,17 @@
 <h1>{{title}}</h1>
 <div class="form-group">
 	<label for="movieEditorTitle">Title</label>
-	<input type="text" id="movieEditorTitle" class="form-control" [(ngModel)]="movie.title">
+	<input type="text" id="movieEditorTitle" class="form-control" [(ngModel)]="movie.title" required>
 </div><!-- .form-group -->
 
 <div class="form-group">
 	<label for="movieEditorYear">Year</label>
-	<input type="number" min="1878" max="2017" id="movieEditorYear" class="form-control" [(ngModel)]="movie.year">
+	<input type="number" min="1878" max="2017" id="movieEditorYear" class="form-control" [(ngModel)]="movie.year" required>
 </div><!-- .form-group -->
 
 <div class="form-group">
 	<label for="movieEditorImagePath">Image Path</label>
-	<input type="text" id="movieEditorImagePath" class="form-control" [(ngModel)]="movie.imagePath">
+	<input type="text" id="movieEditorImagePath" class="form-control" [(ngModel)]="movie.imagePath" pattern="[a-z0-9\/-_:.]*.(jpg|jpeg|png|gif)">
 </div><!-- .form-group -->
 
 <div class="form-group">
