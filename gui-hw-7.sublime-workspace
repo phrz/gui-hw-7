@@ -1,0 +1,625 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"borr",
+				"borrowedChartElements\tproperty"
+			],
+			[
+				"isAut",
+				"isAuthenticatedSubscription\tproperty"
+			],
+			[
+				"getHead",
+				"getHeaders〔function〕"
+			],
+			[
+				"reroute",
+				"rerouteIfNotAuthenticated\tmethod"
+			],
+			[
+				"rerout",
+				"rerouteIfNotAuthenticated\tmethod"
+			],
+			[
+				"close",
+				"closeOnClick\tproperty"
+			],
+			[
+				"transition",
+				"transition-timing-function: "
+			],
+			[
+				"After",
+				"AfterViewInit\talias"
+			],
+			[
+				"AfterView",
+				"AfterViewInit\talias"
+			],
+			[
+				"wrap",
+				"word-wrap: "
+			],
+			[
+				"text",
+				"text-input-border-size"
+			],
+			[
+				"border-bottom",
+				"border-bottom-left-radius: "
+			],
+			[
+				"border-top",
+				"border-top-left-radius: "
+			],
+			[
+				"border-radius",
+				"border-bottom-left-radius: "
+			],
+			[
+				"backg",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 97.0,
+		"last_filter": "LINT SETTING",
+		"selected_items":
+		[
+			[
+				"LINT SETTING",
+				"Preferences: SublimeLinter Settings – Default"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"word",
+				"Word Wrap: Toggle"
+			],
+			[
+				"syntax js",
+				"Set Syntax: JavaScript Next"
+			],
+			[
+				"install pac",
+				"Package Control: Install Package"
+			],
+			[
+				"linter en",
+				"SublimeLinter: Enable Linter"
+			],
+			[
+				"instlal pac",
+				"Package Control: Install Package"
+			],
+			[
+				"linter",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"reind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"convert to tab",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"convert to ta",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"configu",
+				"Boxy Theme: Configuration"
+			],
+			[
+				"syntax ngx",
+				"Set Syntax: Ngx HTML"
+			],
+			[
+				"boxy confi",
+				"Boxy Theme: Configuration"
+			],
+			[
+				"ngx",
+				"Set Syntax: Ngx HTML"
+			],
+			[
+				"convert",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"package list",
+				"Package Control: List Packages"
+			],
+			[
+				"settings",
+				"Preferences: Settings"
+			],
+			[
+				"configur",
+				"Boxy Theme: Configuration"
+			],
+			[
+				"disable pac",
+				"Package Control: Disable Package"
+			],
+			[
+				"conver tab",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"convert to tabs",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"convert tab",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"settigns",
+				"Preferences: Settings"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"disable lint",
+				"SublimeLinter: Disable Linter"
+			],
+			[
+				"enable lin",
+				"SublimeLinter: Enable Linter"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"install p",
+				"Package Control: Install Package"
+			],
+			[
+				"remove pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"linter enabl",
+				"SublimeLinter: Enable Linter"
+			],
+			[
+				"lint",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"word ",
+				"Word Wrap: Toggle"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"boxy",
+				"Boxy Theme: Activation"
+			],
+			[
+				"colorsub",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"glue",
+				"Glue - Launch"
+			],
+			[
+				"gulp ar",
+				"Gulp: Run arbitrary task"
+			],
+			[
+				"gulp pane",
+				"Gulp: Hide panel"
+			],
+			[
+				"gulp show",
+				"Gulp: Show panel"
+			],
+			[
+				"install pack",
+				"Package Control: Install Package"
+			],
+			[
+				"linter style",
+				"SublimeLinter: Choose Mark Style"
+			],
+			[
+				"linter togg",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"linter ",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"linter disable ",
+				"SublimeLinter: Disable Debug Mode"
+			],
+			[
+				"linter enab",
+				"SublimeLinter: Enable Debug Mode"
+			],
+			[
+				"package",
+				"Package Control: Enable Package"
+			],
+			[
+				"package control install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"print('hello')",
+			"help()",
+			"clear",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/phrz/Repos/gui-hw-7"
+	],
+	"file_history":
+	[
+		"/Users/phrz/Repos/uomi/src/lib/Authentication.php",
+		"/Users/phrz/Repos/uomi/src/lib/controller/SessionController.php",
+		"/Users/phrz/Repos/uomi/src/public/app/services/authentication-service.ts",
+		"/Users/phrz/Repos/uomi/src/public/app/services/loans-service.ts",
+		"/Users/phrz/Repos/uomi/src/lib/factory/PaymentFactory.php",
+		"/Users/phrz/Repos/uomi/src/public/scss/_layout.scss",
+		"/Users/phrz/Repos/uomi/src/public/scss/_forms.scss",
+		"/Users/phrz/Repos/uomi/src/public/app/payment-form/payment-form.component.html",
+		"/Users/phrz/Repos/uomi/src/public/app/dashboard/dashboard.component.html",
+		"/Users/phrz/Repos/uomi/src/lib/controller/PaymentController.php",
+		"/Users/phrz/Repos/uomi/src/public/app/payment-form/payment-form.component.ts",
+		"/Users/phrz/Repos/uomi/src/lib/controller/LoanController.php",
+		"/Users/phrz/Repos/uomi/data/dump.sql",
+		"/Users/phrz/Repos/uomi/src/lib/factory/AnalyticFactory.php",
+		"/Users/phrz/Repos/uomi/src/lib/model/Payment.php",
+		"/Users/phrz/Repos/uomi/src/public/app/dashboard/dashboard.component.ts",
+		"/Users/phrz/Repos/uomi/src/public/app/services/user.ts",
+		"/Users/phrz/Repos/uomi/src/public/app/services/loan.ts",
+		"/Users/phrz/Repos/uomi/src/lib/model/Session.php",
+		"/Users/phrz/Repos/uomi/src/lib/factory/UserFactory.php",
+		"/Users/phrz/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/Users/phrz/Repos/uomi/src/public/tsconfig.json",
+		"/Users/phrz/Repos/uomi/src/lib/factory/SessionFactory.php",
+		"/Users/phrz/Repos/uomi/package.json",
+		"/Users/phrz/Repos/uomi/src/public/app/services/modal-service.ts",
+		"/Users/phrz/Repos/uomi/src/public/app/modal/modal.component.ts",
+		"/Users/phrz/Repos/uomi/gulpfile.js",
+		"/Users/phrz/Repos/uomi/src/public/app/registration/registration.component.html",
+		"/Users/phrz/Repos/uomi/src/public/app/login/login.component.html",
+		"/Users/phrz/Repos/uomi/src/public/app/app.component.ts",
+		"/Users/phrz/Repos/uomi/src/public/app/app.component.html",
+		"/Users/phrz/Repos/uomi/src/public/webpack.config.js",
+		"/Users/phrz/Repos/uomi/src/public/index.html",
+		"/Users/phrz/Repos/uomi/src/public/app/front-page/front-page.component.ts",
+		"/Users/phrz/Repos/uomi/src/public/app/main.ts",
+		"/Users/phrz/Repos/uomi/src/public/app/app.module.ts",
+		"/Users/phrz/Repos/uomi/src/public/app/borrow-form/borrow-form.component.ts",
+		"/Users/phrz/Repos/uomi/src/public/app/lend-form/lend-form.component.ts",
+		"/Users/phrz/Repos/uomi/src/public/app/shared/dropdown.directive.ts",
+		"/Users/phrz/Repos/uomi/src/public/app/shared/currency-view.component.ts",
+		"/Users/phrz/Repos/uomi/src/public/scss/_dashboard.scss",
+		"/Users/phrz/Repos/uomi/config/test/caddy/Caddyfile",
+		"/Users/phrz/Repos/uomi/config/dev/caddy/Caddyfile",
+		"/Users/phrz/Repos/uomi/config/production/caddy/Caddyfile",
+		"/Users/phrz/Repos/uomi/src/lib/controller/AnalyticsController.php",
+		"/Users/phrz/Repos/uomi/src/public/package.json",
+		"/Users/phrz/Repos/uomi/src/public/app/vendor.ts",
+		"/Users/phrz/Repos/uomi/webpack.config.js",
+		"/Users/phrz/Repos/uomi/build/public/app.896149f0fe3d421fc8b6.js",
+		"/Users/phrz/Repos/uomi/src/public/app/polyfills.ts",
+		"/Users/phrz/Repos/uomi/src/public/systemjs.config.js",
+		"/Users/phrz/Repos/uomi/src/public/main.ts",
+		"/Users/phrz/Repos/uomi/src/public/app/lend-form/lend-form.component.html",
+		"/Users/phrz/Repos/uomi/src/public/scss/_modal.scss",
+		"/Users/phrz/Repos/uomi/src/public/scss/_table.scss",
+		"/Users/phrz/Repos/uomi/src/public/app/shared/shared.module.ts",
+		"/Users/phrz/Repos/uomi/src/public/systemjs-angular-loader.js",
+		"/Users/phrz/Repos/uomi/src/public/scss/_globals.scss",
+		"/Users/phrz/Repos/uomi/src/public/scss/_features.scss",
+		"/Users/phrz/Repos/uomi/src/public/app/shared/focus-on-load.directive.ts",
+		"/Users/phrz/Repos/uomi/src/public/scss/_mixins.scss",
+		"/Users/phrz/Repos/uomi/src/public/scss/style.scss",
+		"/Users/phrz/Repos/uomi/src/public/scss/_general.scss",
+		"/Users/phrz/Repos/uomi/src/lib/controller/UserController.php",
+		"/Users/phrz/Repos/uomi/src/lib/model/User.php",
+		"/Users/phrz/Repos/uomi/src/public/scss/_columns.scss",
+		"/Users/phrz/Repos/uomi/src/public/scss/_breakpoints.scss",
+		"/Users/phrz/Repos/uomi/bin/ssh.sh",
+		"/Users/phrz/Repos/uomi/bin/up.sh",
+		"/Users/phrz/Repos/uomi/bin/destroy.sh",
+		"/Users/phrz/Repos/uomi/bin/status.sh",
+		"/Users/phrz/Repos/uomi/bin/suspend.sh",
+		"/Users/phrz/Repos/uomi/bin/resume.sh",
+		"/Users/phrz/Repos/uomi/bin/halt.sh",
+		"/Users/phrz/Repos/uomi/config/production/docker-compose.yml",
+		"/Users/phrz/Repos/uomi/config/test/docker-compose.yml",
+		"/Users/phrz/Repos/uomi/config/dev/docker-compose.yml",
+		"/Users/phrz/Repos/uomi/config/production/php/php.ini",
+		"/Users/phrz/Repos/uomi/bin/dev/up.sh",
+		"/Users/phrz/Repos/uomi/bin/dev/suspend.sh",
+		"/Users/phrz/Repos/uomi/bin/dev/status.sh",
+		"/Users/phrz/Repos/uomi/bin/dev/resume.sh",
+		"/Users/phrz/Repos/uomi/bin/dev/halt.sh",
+		"/Users/phrz/Repos/uomi/bin/dev/destroy.sh",
+		"/Users/phrz/Repos/uomi/docker-compose.yml",
+		"/Users/phrz/Repos/uomi/bin/test/destroy.sh",
+		"/Users/phrz/Repos/uomi/bin/test/halt.sh",
+		"/Users/phrz/Repos/uomi/bin/test/status.sh",
+		"/Users/phrz/Repos/uomi/bin/test/suspend.sh",
+		"/Users/phrz/Repos/uomi/bin/test/up.sh",
+		"/Users/phrz/Repos/uomi/bin/test/ssh.sh",
+		"/Users/phrz/Repos/uomi/bin/test/resume.sh",
+		"/Users/phrz/Repos/uomi/src/public/app/shared/loan.ts",
+		"/Users/phrz/Repos/uomi/src/public/app/registration/registration.component.ts",
+		"/Users/phrz/Repos/uomi/src/public/app/shared/serializable.ts",
+		"/Users/phrz/Repos/uomi/data/categories.sql",
+		"/Users/phrz/Repos/uomi/src/public/app/login/login.component.ts",
+		"/Users/phrz/Repos/uomi/src/lib/Form.php",
+		"/Users/phrz/Repos/uomi/src/public/app/services/users-service.ts",
+		"/Users/phrz/Repos/uomi/src/slim/routes.php",
+		"/Users/phrz/Repos/uomi/src/public/scss/_reset.scss",
+		"/Users/phrz/Repos/uomi/src/public/scss/_login.scss",
+		"/Users/phrz/Repos/uomi/src/public/app/focus-on-load.directive.ts",
+		"/Users/phrz/Repos/uomi/src/public/app/magic-form-item.directive.ts",
+		"/Users/phrz/Repos/uomi/src/public/scss/_header.scss",
+		"/Users/phrz/Repos/uomi/src/public/magic-form-item.js",
+		"/Users/phrz/Repos/uomi/build/public/css/style.css",
+		"/Users/phrz/Repos/uomi/src/lib/autoload.php",
+		"/Users/phrz/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/phrz/Repos/uomi/src/slim/errors.php",
+		"/Users/phrz/Library/Application Support/Sublime Text 3/Packages/User/Glue.sublime-settings",
+		"/Users/phrz/Repos/uomi/terminal.glue",
+		"/Users/phrz/Library/Application Support/Sublime Text 3/Packages/AutoSoftWrap/AutoSoftWrap.sublime-settings",
+		"/Users/phrz/Documents/Refugee Support Network/rsndfw/build/css/style.css",
+		"/Users/paulherz/Documents/School/SMU YR3 Spring/GUI/hw1-angular/index.html",
+		"/Users/paulherz/Documents/School/SMU YR3 Spring/GUI/hw1-angular/test.json",
+		"/Users/paulherz/Documents/School/SMU YR3 Spring/GUI/hw1/index.html",
+		"/Users/paulherz/Documents/School/SMU YR3 Spring/GUI/hw1/css/style.css",
+		"/Users/paulherz/Documents/School/SMU YR3 Spring/GUI/hw1/css/bootstrap.css",
+		"/private/var/folders/xp/m32vm4kx3fxbr0pbc_g2p9gc0000gn/T/TemporaryItems/noun_780293_cc.svg",
+		"/Users/paulherz/Documents/School/SMU YR3 Spring/Communications/Movie Speech",
+		"/Users/paulherz/Library/Application Support/Google/Chrome/Default/Preferences",
+		"/Users/paulherz/Desktop/Mars.app/Contents/Resources/script",
+		"/Users/paulherz/Documents/School/SMU YR3 Spring/Operating Systems/OS Assignments/os_p1/README",
+		"/Users/paulherz/Documents/School/SMU YR3 Spring/Operating Systems/OS Assignments/os_p1/src/point/testPoint.c",
+		"/Users/paulherz/Desktop/raytracer.ts",
+		"/Users/paulherz/Documents/School/SMU YR3 Spring/Operating Systems/OS Assignments/os_p1/src/point/point.c",
+		"/Users/paulherz/Documents/School/SMU YR3 Spring/Operating Systems/OS Assignments/os_p1/src/point/point.h"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"ViewChild",
+			"payment",
+			"badPayment",
+			"Auth",
+			"echo",
+			"loan",
+			"loan.",
+			".id",
+			"console.log",
+			"env",
+			"node_modules",
+			"uglify",
+			"concat",
+			"nodeModules",
+			"block",
+			".button",
+			"export",
+			"Tether",
+			"trigger",
+			"animations",
+			"@angular/animations",
+			"docker(",
+			"help",
+			"console.log",
+			"getuserloan",
+			"userid",
+			"resource",
+			"session_key",
+			"echo",
+			"catch(\\Runtime",
+			"card",
+			"table",
+			"@extend",
+			"page-center",
+			"rgba",
+			"z-index",
+			"focus",
+			"margin:0 auto",
+			"input-border-size",
+			"border-size",
+			"\\User",
+			"user",
+			"button",
+			"container",
+			"@media",
+			"/*!",
+			"test",
+			".navbar",
+			".navbar-toggler-icon",
+			".navbar-toggler",
+			"style",
+			"family"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 37.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.gulp_output":
+	{
+		"height": 110.0
+	},
+	"pinned_build_system": "",
+	"project": "gui-hw-7.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 243.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

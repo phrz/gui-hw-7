@@ -1,0 +1,38 @@
+<h1>Movie Database</h1>
+<nav>
+	<button class="btn btn-primary pull-right" routerLink="/add">Add movie</button>
+	<div class="clearfix"></div>
+</nav>
+<section class="movie-list-section">
+
+	<div class="well" *ngIf="!isLoaded">
+		Loading
+	</div>
+	<div class="well" *ngIf="isLoaded && movies.length === 0">
+		There are no movies in the database.
+	</div>
+
+	<div class="movie media" *ngFor="let movie of movies">
+		<span class="media-left">
+			<img [src]="(movie.imagePath||'images/blank.jpg')" alt="{{ movie.title }}" />
+		</span>
+		<div class="media-body">
+			<h4 class="media-heading">
+				{{ movie.title }} ({{ movie.year }}) 
+				<button class="btn btn-link movie-edit-button" [routerLink]="['/edit', movie.id]">
+					<i class="glyphicon glyphicon-edit"></i>
+				</button>
+				<button class="btn btn-link movie-delete-button" (click)="didClickDelete( movie )">
+					<i class="glyphicon glyphicon-trash"></i>
+				</button>
+			</h4>
+			<rating [model]="movie.rating"></rating>
+		</div>
+	</div><!-- .movie -->
+
+	<div class="alert alert-info working-message" *ngIf="isWorking">
+		<i class="glyphicon glyphicon-refresh" aria-hidden="true"></i>
+		Working
+	</div>
+
+</section><!-- .movie-list-section -->

@@ -1,0 +1,9 @@
+<span class="rating">
+	<span class="glyphicon" *ngFor="let value of [1,2,3,4,5]"
+	 [ngClass]="{ 'glyphicon-star': ((model || 0) >= value), 'glyphicon-star-empty': (model || 0) < value }"
+	 (click)="model = value"
+	></span>
+	<span class="badge">
+		{{ model || 0 }}/5
+	</span>
+</span>
