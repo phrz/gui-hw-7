@@ -1,7 +1,10 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { Movie } from '../api/movie';
-import { MovieRepository } from '../api/movie-repository.service';
+import { FormsModule } from '@angular/forms';
+
+import { MockAPIService } from '../../core/mock-api.service';
+import { MovieRepositoryService } from '../../core/movie-repository.service';
+import { Movie } from '../../core/movie';
 
 @Component({
 	selector: 'movie-editor',
@@ -16,7 +19,7 @@ export class MovieEditorComponent implements OnInit, OnDestroy {
 	private movie: Movie;
 	private sub: any;
 
-	constructor(private movieRepository: MovieRepository, 
+	constructor(private movieRepository: MovieRepositoryService, 
 				private route: ActivatedRoute) {}
 
 	ngOnInit(): void {
@@ -43,7 +46,6 @@ export class MovieEditorComponent implements OnInit, OnDestroy {
 	}
 
 	saveChanges() {
-		console.log('MovieEditorComponent.saveChanges');
 		if(this.isNew) {
 			this.movieRepository.add(this.movie);
 		} else {

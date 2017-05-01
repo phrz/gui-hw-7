@@ -59,18 +59,23 @@ module.exports = {
 				loader: 'html-loader'
 			},
 			{
-			    test: /\.css$/,
-			    use: ['style-loader', 'css-loader']
+				test: /\.css$/,
+				use: ['style-loader', 'css-loader']
 			},
 			{
 				test: /\.(png|jpe?g|gif)$/, 
 				loader: 'file-loader'
 			},
 			{
-                test: /\.(eot|svg|ttf|woff|woff2)$/,
-                loader: 'file-loader'
-            }
+				test: /\.(eot|svg|ttf|woff|woff2)$/,
+				loader: 'file-loader'
+			}
 		]
+	},
+
+	devServer: {
+		port: 3000,
+		historyApiFallback: true
 	},
 
 	plugins: [

@@ -1,20 +1,58 @@
-<h1>{{title}}</h1>
-<div class="form-group">
-	<label for="movieEditorTitle">Title</label>
-	<input type="text" id="movieEditorTitle" class="form-control" [(ngModel)]="movie.title" required>
-</div><!-- .form-group -->
+<form #movieForm="ngForm" (ngSubmit)="saveChanges()">
 
-<div class="form-group">
-	<label for="movieEditorYear">Year</label>
-	<input type="number" min="1878" max="2017" id="movieEditorYear" class="form-control" [(ngModel)]="movie.year" required>
-</div><!-- .form-group -->
+	<h1>
+		{{ title }}
+	</h1>
 
-<div class="form-group">
-	<label for="movieEditorImagePath">Image Path</label>
-	<input type="text" id="movieEditorImagePath" class="form-control" [(ngModel)]="movie.imagePath" pattern="[a-z0-9\/-_:.]*.(jpg|jpeg|png|gif)">
-</div><!-- .form-group -->
 
-<div class="form-group">
-	<button class="btn btn-primary btn-lg btn-block" (click)="saveChanges()" routerLink="/">Save</button>
-	<button class="btn btn-default btn-lg btn-block" routerLink="/">Return to list</button>
-</div><!-- .form-group -->
+	<div 
+	 class="form-group" 
+	 [ngClass]="{'has-error': title.invalid && title.touched }"
+	>
+		<label class="control-label" for="movieEditorTitle">
+			Title
+		</label>
+		<input type="text" 
+		 class="form-control" id="movieEditorTitle"
+		 [(ngModel)]="movie.title" #title="ngModel" name="movieEditorTitle" 
+		 required
+		>
+		<validation-messages [field]="title"></validation-messages>
+	</div><!-- .form-group -->
+
+	<div 
+	 class="form-group" 
+	 [ngClass]="{'has-error': year.invalid && year.touched }"
+	>
+		<label class="control-label" for="movieEditorYear">Year</label>
+		<input type="number" min="1878" max="2017" 
+		 class="form-control" id="movieEditorYear"
+		 [(ngModel)]="movie.year" #year="ngModel" name="movieEditorYear" 
+		 required
+		>
+	</div><!-- .form-group -->
+
+	<div 
+	 class="form-group" 
+	 [ngClass]="{'has-error': imagePath.invalid && imagePath.touched }"
+	>
+		<label class="control-label" for="movieEditorImagePath">
+			Image Path
+		</label>
+		<input type="text"
+		 class="form-control" id="movieEditorImagePath"
+		 [(ngModel)]="movie.imagePath" #imagePath="ngModel" 
+		 name="movieEditorImagePath"
+		 pattern="[a-z0-9\/-_:.]*.(jpg|jpeg|png|gif)"
+		>
+	</div><!-- .form-group -->
+
+
+
+	<div class="form-group">
+		<button type="submit" [disabled]="!movieForm.form.valid" 
+		 class="btn btn-primary btn-lg btn-block" routerLink="/"
+		>Save</button>
+		<button class="btn btn-default btn-lg btn-block" routerLink="/">Return to list</button>
+	</div><!-- .form-group -->
+</form>

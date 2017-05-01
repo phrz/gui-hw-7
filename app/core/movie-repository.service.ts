@@ -8,7 +8,7 @@ import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/catch';
 
 @Injectable()
-export class MovieRepository {
+export class MovieRepositoryService {
 
 	@Output()
 	didUpdate: EventEmitter<Movie[]> = new EventEmitter();

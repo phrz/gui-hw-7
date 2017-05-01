@@ -1,8 +1,10 @@
 import { Component, OnInit } from '@angular/core';
-import { MovieRepository } from '../api/movie-repository.service';
-import { Movie } from '../api/movie';
 import { Router } from '@angular/router';
 import { Observable } from 'rxjs/Rx';
+
+import { MockAPIService } from '../../core/mock-api.service';
+import { MovieRepositoryService } from '../../core/movie-repository.service';
+import { Movie } from '../../core/movie';
 
 @Component({
 	selector: 'movie-list',
@@ -15,7 +17,7 @@ export class MovieListComponent implements OnInit {
 	isLoaded: boolean = false;
 	isWorking: boolean = false;
 
-	constructor(private movieRepository: MovieRepository, private router: Router) {}
+	constructor(private movieRepository: MovieRepositoryService, private router: Router) {}
 
 	ngOnInit() {
 		this.movieRepository.didUpdate.subscribe((movies: Movie[]) => this.handleMovies(movies));
