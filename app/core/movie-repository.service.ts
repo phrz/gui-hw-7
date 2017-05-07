@@ -14,7 +14,7 @@ export class MovieRepositoryService {
 	didUpdate: EventEmitter<Movie[]> = new EventEmitter();
 
 	private _didLoadMovies: boolean = false;
-	private _movies: Movie[];
+	private _movies: Movie[] = [];
 
 	private getIndex(id: number) {
 		for (let i = this._movies.length; i--;) {
@@ -25,7 +25,8 @@ export class MovieRepositoryService {
 	}
 
 	constructor(private http: Http) {
-		this._movies = [];
+		console.log('MovieRepositoryService.constructor');
+		this.load();
 	}
 
 	broadcastMovies(movies: Movie[]) {
@@ -51,6 +52,7 @@ export class MovieRepositoryService {
 	}
 
 	public get(id: number) : Movie {
+		console.log('MovieRepositoryService.get length', this._movies.length);
 		let index = this.getIndex(id);
 		return this._movies[index];
 	}

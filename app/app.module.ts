@@ -6,17 +6,21 @@ import { CoreModule }    from './core/core.module';
 import { RouterModule }  from '@angular/router';
 import { MoviesModule }  from './movies/movies.module';
 
+import { InMemoryWebApiModule } from 'angular-in-memory-web-api';
+import { MockAPIService } from './core/mock-api.service';
+
 @NgModule({
 	imports: [
-		CoreModule, 
+		CoreModule,
 		BrowserModule,
 		MoviesModule,
-		RouterModule
+		RouterModule,
+		InMemoryWebApiModule.forRoot(MockAPIService, { delay: 1000 })
 	],
 	declarations: [
-		AppComponent,
+		AppComponent
 	],
 	bootstrap: [ AppComponent ]
 })
 
-export class AppModule { }
+export class AppModule {}

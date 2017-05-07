@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"movieEdit",
+				"movieEditorYear"
+			],
+			[
 				"borr",
 				"borrowedChartElements\tproperty"
 			],
@@ -67,6 +71,42 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "app/shared/validation-messages.component.ts",
+			"settings":
+			{
+				"buffer_size": 602,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/core/movie-repository.service.ts",
+			"settings":
+			{
+				"buffer_size": 2193,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/movies/movie-editor/movie-editor.component.ts",
+			"settings":
+			{
+				"buffer_size": 1400,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/movies/movie-list/movie-list.component.ts",
+			"settings":
+			{
+				"buffer_size": 1041,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -75,10 +115,34 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 97.0,
-		"last_filter": "LINT SETTING",
+		"height": 357.0,
+		"last_filter": "reind",
 		"selected_items":
 		[
+			[
+				"reind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"convert to t",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"convert to tab",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"ngx",
+				"Set Syntax: Ngx HTML"
+			],
+			[
+				"indent",
+				"Indentation: Reindent Lines"
+			],
 			[
 				"LINT SETTING",
 				"Preferences: SublimeLinter Settings – Default"
@@ -116,14 +180,6 @@
 				"SublimeLinter: Toggle Linter"
 			],
 			[
-				"reind",
-				"Indentation: Reindent Lines"
-			],
-			[
-				"convert to tab",
-				"Indentation: Convert to Tabs"
-			],
-			[
 				"convert to ta",
 				"Indentation: Convert to Tabs"
 			],
@@ -138,10 +194,6 @@
 			[
 				"boxy confi",
 				"Boxy Theme: Configuration"
-			],
-			[
-				"ngx",
-				"Set Syntax: Ngx HTML"
 			],
 			[
 				"convert",
@@ -308,10 +360,39 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/phrz/Repos/gui-hw-7"
+		"/Users/phrz/Repos/gui-hw-7",
+		"/Users/phrz/Repos/gui-hw-7/app",
+		"/Users/phrz/Repos/gui-hw-7/app/core",
+		"/Users/phrz/Repos/gui-hw-7/dist",
+		"/Users/phrz/Repos/gui-hw-7/dist/js",
+		"/Users/phrz/Repos/gui-hw-7/node_modules/bootstrap/dist",
+		"/Users/phrz/Repos/gui-hw-7/node_modules/bootstrap/dist/css"
 	],
 	"file_history":
 	[
+		"/Users/phrz/Repos/gui-hw-7/app/movies/movies.module.ts",
+		"/Users/phrz/Repos/gui-hw-7/app/core/core.module.ts",
+		"/Users/phrz/Repos/gui-hw-7/app/app.module.ts",
+		"/Users/phrz/Repos/gui-hw-7/app/core/movie-repository.service.ts",
+		"/Users/phrz/Repos/gui-hw-7/app/movies/api/movie-repository.service.ts",
+		"/Users/phrz/Repos/gui-hw-7/webpack.config.js",
+		"/Users/phrz/Repos/gui-hw-7/app/movies/movie-editor/movie-editor.component.html",
+		"/Users/phrz/Repos/gui-hw-7/app/movies/movie-list/movie-list.component.css",
+		"/Users/phrz/Repos/gui-hw-7/app/movies/movie-list/movie-list.component.html",
+		"/Users/phrz/Repos/gui-hw-7/app/movies/movie-editor/movie-editor.component.ts",
+		"/Users/phrz/Repos/gui-hw-7/app/shared/shared.module.ts",
+		"/Users/phrz/Repos/gui-hw-7/app/shared/validation-messages.component.ts",
+		"/Users/phrz/Repos/gui-hw-7/app/shared/rating/rating.component.ts",
+		"/Users/phrz/Repos/gui-hw-7/app/vendor.ts",
+		"/Users/phrz/Repos/gui-hw-7/index.html",
+		"/Users/phrz/Repos/gui-hw-7/app/app.component.ts",
+		"/Users/phrz/Repos/gui-hw-7/app/movies/movie-list/movie-list.component.ts",
+		"/Users/phrz/Repos/gui-hw-7/package.json",
+		"/Users/phrz/Repos/gui-hw-7/node_modules/bootstrap/dist/css/bootstrap.css",
+		"/Users/phrz/Repos/gui-hw-7/app/movies/api/mock-api.service.ts",
+		"/Users/phrz/Repos/gui-hw-7/app/app.component.css",
+		"/Users/phrz/Repos/gui-hw-7/tsconfig.json",
+		"/Users/phrz/Repos/gui-hw-7/polyfills.ts",
 		"/Users/phrz/Repos/uomi/src/lib/Authentication.php",
 		"/Users/phrz/Repos/uomi/src/lib/controller/SessionController.php",
 		"/Users/phrz/Repos/uomi/src/public/app/services/authentication-service.ts",
@@ -416,34 +497,11 @@
 		"/Users/phrz/Repos/uomi/src/public/scss/_login.scss",
 		"/Users/phrz/Repos/uomi/src/public/app/focus-on-load.directive.ts",
 		"/Users/phrz/Repos/uomi/src/public/app/magic-form-item.directive.ts",
-		"/Users/phrz/Repos/uomi/src/public/scss/_header.scss",
-		"/Users/phrz/Repos/uomi/src/public/magic-form-item.js",
-		"/Users/phrz/Repos/uomi/build/public/css/style.css",
-		"/Users/phrz/Repos/uomi/src/lib/autoload.php",
-		"/Users/phrz/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
-		"/Users/phrz/Repos/uomi/src/slim/errors.php",
-		"/Users/phrz/Library/Application Support/Sublime Text 3/Packages/User/Glue.sublime-settings",
-		"/Users/phrz/Repos/uomi/terminal.glue",
-		"/Users/phrz/Library/Application Support/Sublime Text 3/Packages/AutoSoftWrap/AutoSoftWrap.sublime-settings",
-		"/Users/phrz/Documents/Refugee Support Network/rsndfw/build/css/style.css",
-		"/Users/paulherz/Documents/School/SMU YR3 Spring/GUI/hw1-angular/index.html",
-		"/Users/paulherz/Documents/School/SMU YR3 Spring/GUI/hw1-angular/test.json",
-		"/Users/paulherz/Documents/School/SMU YR3 Spring/GUI/hw1/index.html",
-		"/Users/paulherz/Documents/School/SMU YR3 Spring/GUI/hw1/css/style.css",
-		"/Users/paulherz/Documents/School/SMU YR3 Spring/GUI/hw1/css/bootstrap.css",
-		"/private/var/folders/xp/m32vm4kx3fxbr0pbc_g2p9gc0000gn/T/TemporaryItems/noun_780293_cc.svg",
-		"/Users/paulherz/Documents/School/SMU YR3 Spring/Communications/Movie Speech",
-		"/Users/paulherz/Library/Application Support/Google/Chrome/Default/Preferences",
-		"/Users/paulherz/Desktop/Mars.app/Contents/Resources/script",
-		"/Users/paulherz/Documents/School/SMU YR3 Spring/Operating Systems/OS Assignments/os_p1/README",
-		"/Users/paulherz/Documents/School/SMU YR3 Spring/Operating Systems/OS Assignments/os_p1/src/point/testPoint.c",
-		"/Users/paulherz/Desktop/raytracer.ts",
-		"/Users/paulherz/Documents/School/SMU YR3 Spring/Operating Systems/OS Assignments/os_p1/src/point/point.c",
-		"/Users/paulherz/Documents/School/SMU YR3 Spring/Operating Systems/OS Assignments/os_p1/src/point/point.h"
+		"/Users/phrz/Repos/uomi/src/public/scss/_header.scss"
 	],
 	"find":
 	{
-		"height": 22.0
+		"height": 48.0
 	},
 	"find_in_files":
 	{
@@ -458,6 +516,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"import",
+			"gui-hw",
+			"window",
+			"angular",
 			"ViewChild",
 			"payment",
 			"badPayment",
@@ -527,8 +589,156 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "app/shared/validation-messages.component.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 602,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								597,
+								597
+							]
+						],
+						"settings":
+						{
+							"git_gutter_enabled": true,
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": false,
+								"indentSize": 4,
+								"tabSize": 4
+							},
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/core/movie-repository.service.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2193,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1639,
+								1639
+							]
+						],
+						"settings":
+						{
+							"git_gutter_enabled": true,
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": false,
+								"indentSize": 4,
+								"tabSize": 4
+							},
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 571.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/movies/movie-editor/movie-editor.component.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1400,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								913,
+								913
+							]
+						],
+						"settings":
+						{
+							"git_gutter_enabled": true,
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": false,
+								"indentSize": 4,
+								"tabSize": 4
+							},
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/movies/movie-list/movie-list.component.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1041,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								595,
+								595
+							]
+						],
+						"settings":
+						{
+							"git_gutter_enabled": true,
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": false,
+								"indentSize": 4,
+								"tabSize": 4
+							},
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
 			]
 		}
 	],
