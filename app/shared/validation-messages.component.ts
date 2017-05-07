@@ -10,7 +10,7 @@ import { Component, Input } from '@angular/core';
 >
 	<ul>
 		<li *ngFor="let validator of validators">
-			{{ validator | json }}
+			{{ validator.message }}
 		</li>
 	</ul>
 </div>

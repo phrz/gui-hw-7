@@ -17,7 +17,12 @@
 		 [(ngModel)]="movie.title" #title="ngModel" name="movieEditorTitle" 
 		 required
 		>
-		<validation-messages [field]="title"></validation-messages>
+		<validation-messages 
+		 [field]="title"
+		 [messages]="{
+		 	required: 'This field is required.'
+		 }"
+		></validation-messages>
 	</div><!-- .form-group -->
 
 	<div 
@@ -28,8 +33,15 @@
 		<input type="number" min="1878" max="2017" 
 		 class="form-control" id="movieEditorYear"
 		 [(ngModel)]="movie.year" #year="ngModel" name="movieEditorYear" 
-		 required
+		 required yearValidator
 		>
+		<validation-messages
+		 [field]="year"
+		 [messages]="{
+		 	required: 'This field is required.',
+		 	yearValidator: 'Please enter a valid year.'
+		 }"
+		></validation-messages>
 	</div><!-- .form-group -->
 
 	<div 
@@ -45,11 +57,20 @@
 		 name="movieEditorImagePath"
 		 pattern="[a-z0-9\/-_:.]*.(jpg|jpeg|png|gif)"
 		>
+		<validation-messages
+		 [field]="imagePath"
+		 [messages]="{
+		 	pattern: 'Please enter a path to a jpg, png, or gif.'
+		 }"
+		></validation-messages>
 	</div><!-- .form-group -->
 
 
 
-	<div class="form-group">
+	<div 
+	 class="form-group"
+	 [ngClass]="{'has-error': imagePath.invalid && imagePath.touched }"
+	>
 		<button type="submit" [disabled]="!movieForm.form.valid" 
 		 class="btn btn-primary btn-lg btn-block" routerLink="/"
 		>Save</button>

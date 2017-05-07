@@ -25,7 +25,6 @@ export class MovieRepositoryService {
 	}
 
 	constructor(private http: Http) {
-		console.log('MovieRepositoryService.constructor');
 		this.load();
 	}
 
