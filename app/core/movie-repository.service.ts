@@ -45,15 +45,18 @@ export class MovieRepositoryService {
 		return (<Movie[]>res.json().data) || [new Movie()];
 	}
 
+	private extractSingleMovie(res: Response): Movie {
+		console.log(res.json().data);
+		return (<Movie>res.json().data) || new Movie();
+	}
+
 	private handleError(err: any, caught: Observable<any>) {
 		console.error(err);
 		return caught;
 	}
 
-	public get(id: number) : Movie {
-		console.log('MovieRepositoryService.get length', this._movies.length);
-		let index = this.getIndex(id);
-		return this._movies[index];
+	public get(id: number) : Observable<Movie> {
+		return this.http.get(`api/movies/${id}`).map(this.extractSingleMovie);
 	}
 
 	public add(movie: Movie) {

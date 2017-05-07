@@ -1,10 +1,10 @@
 <form #movieForm="ngForm" (ngSubmit)="saveChanges()">
 
 	<h1>
-		{{ title }}
+		{{ pageTitle }}
 	</h1>
 
-
+	
 	<div 
 	 class="form-group" 
 	 [ngClass]="{'has-error': title.invalid && title.touched }"

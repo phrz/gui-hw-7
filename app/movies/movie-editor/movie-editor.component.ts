@@ -14,9 +14,9 @@ import { Movie } from '../../core/movie';
 export class MovieEditorComponent implements OnInit, OnDestroy {
 
 	private id: number;
-	private title: string;
+	private pageTitle: string = 'asdf';
 	private isNew: boolean;
-	private movie: Movie;
+	private movie: Movie = new Movie();
 	private sub: any;
 
 	constructor(private movieRepository: MovieRepositoryService, 
@@ -37,11 +37,12 @@ export class MovieEditorComponent implements OnInit, OnDestroy {
 		this.isNew = (this.id == null);
 		if(this.isNew) {
 			this.movie = new Movie();
-			this.title = 'New Movie';
+			this.pageTitle = 'New Movie';
 		} else {
-			// COPY, not reference.
-			this.movie = {... this.movieRepository.get(this.id)};
-			this.title = 'Edit Movie: ' + this.movie.title;
+			this.movieRepository.get(this.id).subscribe(m => {
+				this.movie = m;
+			});
+			this.pageTitle = 'Edit Movie';
 		}
 	}
 

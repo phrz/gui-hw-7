@@ -20,7 +20,4 @@ export class YearValidatorDirective implements Validator {
 		// by default return error object (invalid)
 		return { validateYear: { valid: false } };
 	}
-
-	// @HostListener('click')
-	// didClick() {}
 }
