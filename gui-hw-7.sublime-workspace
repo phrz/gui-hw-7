@@ -72,10 +72,19 @@
 	"buffers":
 	[
 		{
-			"file": "app/shared/validation-messages.component.ts",
+			"file": "app/movies/movie-editor/movie-editor.component.ts",
 			"settings":
 			{
-				"buffer_size": 602,
+				"buffer_size": 1411,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/movies/movie-editor/movie-editor.component.html",
+			"settings":
+			{
+				"buffer_size": 2066,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -84,25 +93,7 @@
 			"file": "app/core/movie-repository.service.ts",
 			"settings":
 			{
-				"buffer_size": 2193,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/movies/movie-editor/movie-editor.component.ts",
-			"settings":
-			{
-				"buffer_size": 1400,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/movies/movie-list/movie-list.component.ts",
-			"settings":
-			{
-				"buffer_size": 1041,
+				"buffer_size": 2227,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -115,10 +106,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 357.0,
-		"last_filter": "reind",
+		"height": 277.0,
+		"last_filter": "ngx",
 		"selected_items":
 		[
+			[
+				"ngx",
+				"Set Syntax: Ngx HTML"
+			],
 			[
 				"reind",
 				"Indentation: Reindent Lines"
@@ -134,10 +129,6 @@
 			[
 				"html",
 				"Set Syntax: HTML"
-			],
-			[
-				"ngx",
-				"Set Syntax: Ngx HTML"
 			],
 			[
 				"indent",
@@ -336,7 +327,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 467.0
+		"width": 564.0
 	},
 	"console":
 	{
@@ -363,30 +354,31 @@
 		"/Users/phrz/Repos/gui-hw-7",
 		"/Users/phrz/Repos/gui-hw-7/app",
 		"/Users/phrz/Repos/gui-hw-7/app/core",
-		"/Users/phrz/Repos/gui-hw-7/dist",
-		"/Users/phrz/Repos/gui-hw-7/dist/js",
-		"/Users/phrz/Repos/gui-hw-7/node_modules/bootstrap/dist",
-		"/Users/phrz/Repos/gui-hw-7/node_modules/bootstrap/dist/css"
+		"/Users/phrz/Repos/gui-hw-7/app/movies",
+		"/Users/phrz/Repos/gui-hw-7/app/movies/movie-editor",
+		"/Users/phrz/Repos/gui-hw-7/app/movies/movie-list"
 	],
 	"file_history":
 	[
+		"/Users/phrz/Repos/gui-hw-7/app/core/movie.ts",
+		"/Users/phrz/Repos/gui-hw-7/app/shared/validators/year-validator.directive.ts",
+		"/Users/phrz/Repos/gui-hw-7/app/movies/movie-editor/movie-editor.component.html",
+		"/Users/phrz/Repos/gui-hw-7/app/shared/validation-messages.component.ts",
+		"/Users/phrz/Repos/gui-hw-7/app/shared/shared.module.ts",
+		"/Users/phrz/Repos/gui-hw-7/app/core/movie-repository.service.ts",
+		"/Users/phrz/Repos/gui-hw-7/app/movies/movie-editor/movie-editor.component.ts",
+		"/Users/phrz/Repos/gui-hw-7/app/movies/movie-list/movie-list.component.ts",
 		"/Users/phrz/Repos/gui-hw-7/app/movies/movies.module.ts",
 		"/Users/phrz/Repos/gui-hw-7/app/core/core.module.ts",
 		"/Users/phrz/Repos/gui-hw-7/app/app.module.ts",
-		"/Users/phrz/Repos/gui-hw-7/app/core/movie-repository.service.ts",
 		"/Users/phrz/Repos/gui-hw-7/app/movies/api/movie-repository.service.ts",
 		"/Users/phrz/Repos/gui-hw-7/webpack.config.js",
-		"/Users/phrz/Repos/gui-hw-7/app/movies/movie-editor/movie-editor.component.html",
 		"/Users/phrz/Repos/gui-hw-7/app/movies/movie-list/movie-list.component.css",
 		"/Users/phrz/Repos/gui-hw-7/app/movies/movie-list/movie-list.component.html",
-		"/Users/phrz/Repos/gui-hw-7/app/movies/movie-editor/movie-editor.component.ts",
-		"/Users/phrz/Repos/gui-hw-7/app/shared/shared.module.ts",
-		"/Users/phrz/Repos/gui-hw-7/app/shared/validation-messages.component.ts",
 		"/Users/phrz/Repos/gui-hw-7/app/shared/rating/rating.component.ts",
 		"/Users/phrz/Repos/gui-hw-7/app/vendor.ts",
 		"/Users/phrz/Repos/gui-hw-7/index.html",
 		"/Users/phrz/Repos/gui-hw-7/app/app.component.ts",
-		"/Users/phrz/Repos/gui-hw-7/app/movies/movie-list/movie-list.component.ts",
 		"/Users/phrz/Repos/gui-hw-7/package.json",
 		"/Users/phrz/Repos/gui-hw-7/node_modules/bootstrap/dist/css/bootstrap.css",
 		"/Users/phrz/Repos/gui-hw-7/app/movies/api/mock-api.service.ts",
@@ -495,9 +487,7 @@
 		"/Users/phrz/Repos/uomi/src/slim/routes.php",
 		"/Users/phrz/Repos/uomi/src/public/scss/_reset.scss",
 		"/Users/phrz/Repos/uomi/src/public/scss/_login.scss",
-		"/Users/phrz/Repos/uomi/src/public/app/focus-on-load.directive.ts",
-		"/Users/phrz/Repos/uomi/src/public/app/magic-form-item.directive.ts",
-		"/Users/phrz/Repos/uomi/src/public/scss/_header.scss"
+		"/Users/phrz/Repos/uomi/src/public/app/focus-on-load.directive.ts"
 	],
 	"find":
 	{
@@ -516,6 +506,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"title",
 			"import",
 			"gui-hw",
 			"window",
@@ -589,30 +580,31 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/shared/validation-messages.component.ts",
+					"file": "app/movies/movie-editor/movie-editor.component.ts",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 602,
+						"buffer_size": 1411,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								597,
-								597
+								1259,
+								1259
 							]
 						],
 						"settings":
 						{
-							"git_gutter_enabled": true,
+							"git_gutter_is_enabled": true,
 							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"translate_tabs_to_spaces": false,
 							"typescript_plugin_format_options":
 							{
 								"convertTabsToSpaces": false,
@@ -620,6 +612,38 @@
 								"tabSize": 4
 							},
 							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 196.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/movies/movie-editor/movie-editor.component.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2066,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								78,
+								63
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"color_scheme": "Packages/User/Color Highlighter/themes/Boxy Ocean.tmTheme",
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -629,25 +653,25 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
+					"buffer": 2,
 					"file": "app/core/movie-repository.service.ts",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2193,
+						"buffer_size": 2227,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1639,
-								1639
+								1219,
+								1219
 							]
 						],
 						"settings":
 						{
-							"git_gutter_enabled": true,
+							"git_gutter_is_enabled": true,
 							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
 							"translate_tabs_to_spaces": false,
 							"typescript_plugin_format_options":
@@ -659,81 +683,7 @@
 							"use_tab_stops": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 571.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app/movies/movie-editor/movie-editor.component.ts",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1400,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								913,
-								913
-							]
-						],
-						"settings":
-						{
-							"git_gutter_enabled": true,
-							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
-							"translate_tabs_to_spaces": false,
-							"typescript_plugin_format_options":
-							{
-								"convertTabsToSpaces": false,
-								"indentSize": 4,
-								"tabSize": 4
-							},
-							"use_tab_stops": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "app/movies/movie-list/movie-list.component.ts",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1041,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								595,
-								595
-							]
-						],
-						"settings":
-						{
-							"git_gutter_enabled": true,
-							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
-							"translate_tabs_to_spaces": false,
-							"typescript_plugin_format_options":
-							{
-								"convertTabsToSpaces": false,
-								"indentSize": 4,
-								"tabSize": 4
-							},
-							"use_tab_stops": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 549.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
